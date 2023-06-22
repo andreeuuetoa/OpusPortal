@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\App.BLL\App.BLL.csproj" />
+      <ProjectReference Include="..\App.Domain\App.Domain.csproj" />
+      <ProjectReference Include="..\Base.DTO\Base.DTO.csproj" />
+      <ProjectReference Include="..\Base.Mappers\Base.Mappers.csproj" />
+      <ProjectReference Include="..\BLL.DTO\BLL.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Mappers\Competitions\" />
+      <Folder Include="Mappers\Concerts\" />
+      <Folder Include="Mappers\Contacts\" />
+      <Folder Include="Mappers\Institutions\" />
+      <Folder Include="Mappers\Studying logic\" />
+    </ItemGroup>
+
+</Project>
